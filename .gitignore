@@ -1,0 +1,10 @@
+result/*
+meet_result/*
+*.sh
+temp_data.txt
+data_test.txt
+
+.vscode
+
+README.md
+levywalk-jar-with-dependencies.jar

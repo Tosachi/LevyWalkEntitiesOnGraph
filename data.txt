@@ -1,0 +1,12 @@
+trial 3
+threshold 0.07
+graphSeed 1473622387912636683
+entityClass LevyWalk
+step 1600
+entity 1
+remake 1000
+permissibleError 20.0
+interval 1600
+node 500
+file result_test
+lambda 3.0
