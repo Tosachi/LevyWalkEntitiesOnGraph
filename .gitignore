@@ -5,7 +5,7 @@ temp_data.txt
 data_test.txt
 
 .vscode
-.DS_STORE
+.DS_Store
 
 README.md
 levywalk-jar-with-dependencies.jar
