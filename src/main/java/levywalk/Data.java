@@ -1,7 +1,6 @@
 package levywalk;
 
 import java.io.File;
-// import java.util.Random;
 
 public class Data {
 
