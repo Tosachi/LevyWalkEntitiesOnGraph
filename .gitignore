@@ -1,11 +1,13 @@
 result/*
-meet_result/*
+!result/result_entities_test.csv
+!result/result_entity_test.csv
+
+# データ収集用のフォルダ・ファイル
 *.sh
+meet_result/*
 temp_data.txt
 data_test.txt
+levywalk-jar-with-dependencies.jar
 
 .vscode
 .DS_Store
-
-README.md
-levywalk-jar-with-dependencies.jar
