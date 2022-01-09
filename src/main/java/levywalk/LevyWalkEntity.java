@@ -18,7 +18,6 @@ public class LevyWalkEntity extends TabuEntity {
   Random random = new Random();
   Boolean researchCoverRatio;
   Double permissibleError; // 許容誤差
-  // Double lambda; // スケーリングパラメータ,ラムダ
   Double[] lambda; // スケーリングパラメータ,ラムダ
   Boolean debug = false;
   Integer current_entity; // 現在のエンティティ
@@ -32,7 +31,6 @@ public class LevyWalkEntity extends TabuEntity {
 
   @Override
   public void init(RandomWalk.Context context, Node start) {
-    // System.out.println("~~~~~~ levyWalk init: " + start.getId());
     super.init(context, start);
     // System.out.println("RandomSeed: " + this.seed); // シードの確認
     start.addAttribute("start", "start");
@@ -40,8 +38,6 @@ public class LevyWalkEntity extends TabuEntity {
       active[i] = true;
       nodeID[i] = -1;
     }
-    // meet_count = 0;
-    // System.out.println("init active");
     return;
   }
 
@@ -75,8 +71,6 @@ public class LevyWalkEntity extends TabuEntity {
       if (counter.intValue() <= 1 && i <= 1) {
         current = randomStartNode(graph, current_entity);
         current.addAttribute("start", "start");
-        // System.out.println("~~~~~~~~~~グラフ始まり " + current_entity + " : " +
-        // current.getId() + " ~~~~~~~~~~~~~");
       }
 
       if (debug) {
@@ -172,8 +166,12 @@ public class LevyWalkEntity extends TabuEntity {
 
   // シードを設定
   public void setRandomSeed(Long seed) {
-    // this.random.setSeed(seed);
-    this.random.setSeed(new Random().nextLong());
+    if (seed.equals(0L)) {
+      this.random.setSeed(new Random().nextLong());
+
+    } else {
+      this.random.setSeed(seed);
+    }
     return;
   }
 
