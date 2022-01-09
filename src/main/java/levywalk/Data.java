@@ -6,7 +6,7 @@ import java.io.File;
 public class Data {
 
   // 試行回数
-  Integer trial = 1000;
+  Integer trial = 1;
 
   // 現在の試行回数
   Integer current_trial = 0;
@@ -36,7 +36,6 @@ public class Data {
   Integer entity = 1;
 
   // ラムダ
-  // Double lambda = 1.2;
   Double[] lambda = new Double[100];
 
   // 許容誤差

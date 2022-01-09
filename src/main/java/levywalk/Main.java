@@ -20,11 +20,10 @@ public class Main {
       if (d.walkSeed.equals(0L)) { // グラフシードと探索シードが設定されていない
         for (Integer i = 0; i < d.trial; i++) {
           d.graphSeed = new Random().nextLong();
-          d.walkSeed = new Random().nextLong();
+          // d.walkSeed = new Random().nextLong();
           d.current_trial = i;
           RandomWalkOnGraph rwGraph = new RandomWalkOnGraph(d);
           rwGraph.run();
-          // rwGraph.WriteToFile(); // 改行を追加
         }
       } else { // 探索シードのみが設定されている
         for (Integer i = 0; i < d.trial; i++) {
@@ -32,24 +31,21 @@ public class Main {
           d.current_trial = i;
           RandomWalkOnGraph rwGraph = new RandomWalkOnGraph(d);
           rwGraph.run();
-          // rwGraph.WriteToFile(); // 改行を追加
         }
       }
     } else {
       if (d.walkSeed.equals(0L)) { // グラフシードのみが設定されている
         for (Integer i = 0; i < d.trial; i++) {
-          d.walkSeed = new Random().nextLong();
+          // d.walkSeed = new Random().nextLong();
           d.current_trial = i;
           RandomWalkOnGraph rwGraph = new RandomWalkOnGraph(d);
           rwGraph.run();
-          // rwGraph.WriteToFile(); // 改行を追加
         }
       } else { // グラフシードと探索シードが設定されている
         for (Integer i = 0; i < d.trial; i++) {
           d.current_trial = i;
           RandomWalkOnGraph rwGraph = new RandomWalkOnGraph(d);
           rwGraph.run();
-          // rwGraph.WriteToFile(); // 改行を追加
         }
       }
     }
