@@ -25,6 +25,7 @@ pom.xml に記載
   
 ## 実行方法  
 実行結果はターミナルの出力及び `result/*` に指定したファイル名で出力される。  
+コードは `src/main/java/levywalk/*`  
   
 1. jar ファイルから実行 (シミュレータ自体を用いたい場合)  
   
@@ -45,7 +46,7 @@ pom.xml に記載
         
       `data.txt` は任意のデータファイルを指定することができる  
         
-    - jar 化(ライブラリが内包された jar ファイルが作成される)  
+    - jar 化(ライブラリが内包された jar ファイルが src/main/target 作成される)  
       `% mvn compile assembly:single`  
   
 
