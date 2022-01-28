@@ -1,6 +1,8 @@
 package levywalk;
 
 import java.io.*;
+import java.util.Random;
+
 import org.graphstream.algorithm.generator.RandomEuclideanGenerator;
 import org.graphstream.algorithm.randomWalk.Entity;
 import org.graphstream.algorithm.randomWalk.RandomWalk;
@@ -23,9 +25,9 @@ public class RandomWalkOnGraph extends RandomWalk {
   final Double permissibleError; // 許容誤差
   final Double[] lambda; // パラメータ
   final Long graphSeed; // シード
-  final Long walkSeed; // シード
   final Integer interval; // カバー率を取得するステップの間隔
   final Boolean debug;
+  Long walkSeed; // シード
 
   /* 初期設定 */
   public RandomWalkOnGraph(Data d) {
@@ -38,18 +40,21 @@ public class RandomWalkOnGraph extends RandomWalk {
     this.entityNum = d.entity;
     this.remakeNum = d.remake;
     this.graphSeed = d.graphSeed;
-    this.walkSeed = d.walkSeed;
     this.file = d.file;
     this.researchCoverRatio = d.researchCoverRatio;
     this.permissibleError = d.permissibleError;
     this.lambda = d.lambda;
     this.interval = d.interval;
     this.debug = d.debug;
+    this.walkSeed = d.walkSeed;
 
     System.out.println("");
     if (d.entityClass.equals("LevyWalk")) {
       this.entityClass = LevyWalkEntity.class.getName(); // LevyWalk
     } else if (d.entityClass.equals("RandomWalk")) {
+      if (this.walkSeed.equals(0L))
+        this.walkSeed = new Random().nextLong();
+
       this.entityClass = TabuEntity.class.getName(); // RandomWalk
     } else {
       this.entityClass = null;
@@ -164,13 +169,11 @@ public class RandomWalkOnGraph extends RandomWalk {
   public void init(Graph graph) {
     Integer entitiy_count = 0;
     super.init(graph);
-    // System.out.println("~~~~~~ ランダムウォークの override init: " + graph.getId());
     LevyWalkEntity.border_entity = entityNum / 2;
 
     // ここでエンティティの種類を判別し、値を代入している
     for (Entity anEntity : entities) {
       if (anEntity instanceof LevyWalkEntity) {
-        // System.out.println("LevyWalk");
         LevyWalkEntity lwEntity = (LevyWalkEntity) anEntity; // ダウンキャスト
         lwEntity.graph = graph;
         lwEntity.researchCoverRatio = this.researchCoverRatio;
@@ -203,9 +206,7 @@ public class RandomWalkOnGraph extends RandomWalk {
     for (Node aNode : graph.getEachNode()) {
       if (aNode.hasAttribute("start")) { // 初期位置
         if (this.getPasses(aNode) > 0) { // なおかつ、通過している
-          aNode.addAttribute("ui.style", "fill-color: orange; size: 6px;"); // オレンジ
-        } else {
-          aNode.addAttribute("ui.style", "fill-color: yellow; size: 6px;"); // 黄
+          // aNode.addAttribute("ui.style", "fill-color: orange; size: 6px;"); // オレンジ
         }
 
       } else if (this.getPasses(aNode) > 0) { // 通過している
@@ -217,8 +218,8 @@ public class RandomWalkOnGraph extends RandomWalk {
         if (this.researchCoverRatio)
           aNode.addAttribute("ui.style", "fill-color: black; size: 6px;"); // 黒(カバー率を調べる用)
 
-        // } else if(this.getPasses(aNode) > 0){ // 通過している
-        // aNode.addAttribute("ui.style","fill-color: cyan; size: 6px;"); // シアン
+      } else if (this.getPasses(aNode) > 0) { // 通過している
+        aNode.addAttribute("ui.style", "fill-color: cyan; size: 6px;"); // シアン
 
       } else { // その他
         aNode.addAttribute("ui.style", "fill-color: black; size: 6px;"); // 黒

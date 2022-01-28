@@ -17,36 +17,18 @@ public class Main {
     options.setArguments(d); // 引数をセット
 
     if (d.graphSeed.equals(0L)) {
-      if (d.walkSeed.equals(0L)) { // グラフシードと探索シードが設定されていない
-        for (Integer i = 0; i < d.trial; i++) {
-          d.graphSeed = new Random().nextLong();
-          // d.walkSeed = new Random().nextLong();
-          d.current_trial = i;
-          RandomWalkOnGraph rwGraph = new RandomWalkOnGraph(d);
-          rwGraph.run();
-        }
-      } else { // 探索シードのみが設定されている
-        for (Integer i = 0; i < d.trial; i++) {
-          d.graphSeed = new Random().nextLong();
-          d.current_trial = i;
-          RandomWalkOnGraph rwGraph = new RandomWalkOnGraph(d);
-          rwGraph.run();
-        }
+      for (Integer i = 0; i < d.trial; i++) {
+        d.graphSeed = new Random().nextLong();
+        d.current_trial = i;
+        RandomWalkOnGraph rwGraph = new RandomWalkOnGraph(d);
+        rwGraph.run();
       }
     } else {
-      if (d.walkSeed.equals(0L)) { // グラフシードのみが設定されている
-        for (Integer i = 0; i < d.trial; i++) {
-          // d.walkSeed = new Random().nextLong();
-          d.current_trial = i;
-          RandomWalkOnGraph rwGraph = new RandomWalkOnGraph(d);
-          rwGraph.run();
-        }
-      } else { // グラフシードと探索シードが設定されている
-        for (Integer i = 0; i < d.trial; i++) {
-          d.current_trial = i;
-          RandomWalkOnGraph rwGraph = new RandomWalkOnGraph(d);
-          rwGraph.run();
-        }
+      // グラフシードと探索シードが設定されている
+      for (Integer i = 0; i < d.trial; i++) {
+        d.current_trial = i;
+        RandomWalkOnGraph rwGraph = new RandomWalkOnGraph(d);
+        rwGraph.run();
       }
     }
     System.out.println("\noutput the result to \"" + d.file.getName() + "\"");
