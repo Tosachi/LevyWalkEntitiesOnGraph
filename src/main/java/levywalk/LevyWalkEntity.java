@@ -32,8 +32,7 @@ public class LevyWalkEntity extends TabuEntity {
   @Override
   public void init(RandomWalk.Context context, Node start) {
     super.init(context, start);
-    // System.out.println("RandomSeed: " + this.seed); // シードの確認
-    start.addAttribute("start", "start");
+    // start.addAttribute("start", "start");
     for (Integer i = 0; i < 100; i++) {
       active[i] = true;
       nodeID[i] = -1;
@@ -69,7 +68,7 @@ public class LevyWalkEntity extends TabuEntity {
     {
       // グラフの始まり
       if (counter.intValue() <= 1 && i <= 1) {
-        current = randomStartNode(graph, current_entity);
+        current = separateStartNode(graph, current_entity);
         current.addAttribute("start", "start");
       }
 
@@ -178,7 +177,7 @@ public class LevyWalkEntity extends TabuEntity {
   static Integer pre_i = 1;
 
   // ノードのスタートがばらけるように設定
-  public static Node randomStartNode(Graph graph, Integer current_entity) {
+  public static Node separateStartNode(Graph graph, Integer current_entity) {
     int n = graph.getNodeCount();
     int count = 0;
 

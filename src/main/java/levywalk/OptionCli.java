@@ -1,8 +1,6 @@
 package levywalk;
 
 import org.apache.commons.cli.*;
-// import java.time.LocalDateTime;
-// import java.time.format.DateTimeFormatter;
 import java.io.File;
 
 public class OptionCli {
