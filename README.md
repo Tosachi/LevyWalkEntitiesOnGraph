@@ -38,16 +38,16 @@ pom.xml に記載
     調べてください。  
     一応参考：https://reasonable-code.com/eclipse-maven/  
   
-  - maven をインストール後以下のコマンドを実行 (`brew install maven` とかでできます)
+  - maven をインストール後以下のコマンドを実行 (`brew install maven` とかでインストールできる)
     - コンパイル  
       `% mvn compile`  
         
     - 実行  
       `% mvn exec:java -Dexec.args='data.txt'`  
         
-      `data.txt` は任意のデータファイルを指定することができる  
+      `data.txt` には任意のデータファイルを指定することができる  
         
-    - jar 化(ライブラリが内包された jar ファイルが src/main/target 作成される)  
+    - jar 化(ライブラリが内包された jar ファイルが src/main/target に作成される)  
       `% mvn compile assembly:single`  
   
 
