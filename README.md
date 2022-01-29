@@ -122,10 +122,10 @@ pom.xml に記載
    
    また、エンティティがグループ分けされるように、エンティティ番号が半分以下のエンティティと半分以上のエンティティしか遭遇判定を行わないようにしている。図2に示すように、ユニットディスクグラフの座標を取得して開始位置を対角線上の範囲にし、別グループのエンティティとは開始位置が離れるようにした。また、全く同じユニットディスクグラフ上であれば毎回同じ位置から探索が開始されることになる。
 
-[example_hop3.pdf](https://github.com/nischis/LevyWalkEntitiesOnGraph/files/7963309/example_hop3.pdf)  
+![example_hop3.pdf](https://github.com/nischis/LevyWalkEntitiesOnGraph/files/7963309/example_hop3.pdf)  
 図1: ホップ長が 3 の場合の 1ステップの処理例  
   
-[separate_start.pdf](https://github.com/nischis/LevyWalkEntitiesOnGraph/files/7963310/separate_start.pdf)  
+![separate_start.pdf](https://github.com/nischis/LevyWalkEntitiesOnGraph/files/7963310/separate_start.pdf)  
 図2: 探索の開始位置が離れていることを示した実行結果(step = 3，lambda = 6)
   
   
