@@ -1,0 +1,420 @@
+lamdaA: 1.1, lamdaB: 1.1
+940
+lamdaA: 1.1, lamdaB: 1.2
+944
+lamdaA: 1.1, lamdaB: 1.3
+936
+lamdaA: 1.1, lamdaB: 1.4
+933
+lamdaA: 1.1, lamdaB: 1.5
+938
+lamdaA: 1.1, lamdaB: 1.6
+938
+lamdaA: 1.1, lamdaB: 1.7
+925
+lamdaA: 1.1, lamdaB: 1.8
+921
+lamdaA: 1.1, lamdaB: 1.9
+920
+lamdaA: 1.1, lamdaB: 2.0
+913
+lamdaA: 1.1, lamdaB: 2.1
+899
+lamdaA: 1.1, lamdaB: 2.2
+912
+lamdaA: 1.1, lamdaB: 2.3
+895
+lamdaA: 1.1, lamdaB: 2.4
+905
+lamdaA: 1.1, lamdaB: 2.5
+882
+lamdaA: 1.1, lamdaB: 2.6
+887
+lamdaA: 1.1, lamdaB: 2.7
+883
+lamdaA: 1.1, lamdaB: 2.8
+879
+lamdaA: 1.1, lamdaB: 2.9
+874
+lamdaA: 1.1, lamdaB: 3.0
+882
+lamdaA: 1.2, lamdaB: 1.2
+937
+lamdaA: 1.2, lamdaB: 1.3
+941
+lamdaA: 1.2, lamdaB: 1.4
+915
+lamdaA: 1.2, lamdaB: 1.5
+920
+lamdaA: 1.2, lamdaB: 1.6
+913
+lamdaA: 1.2, lamdaB: 1.7
+910
+lamdaA: 1.2, lamdaB: 1.8
+911
+lamdaA: 1.2, lamdaB: 1.9
+899
+lamdaA: 1.2, lamdaB: 2.0
+897
+lamdaA: 1.2, lamdaB: 2.1
+893
+lamdaA: 1.2, lamdaB: 2.2
+874
+lamdaA: 1.2, lamdaB: 2.3
+898
+lamdaA: 1.2, lamdaB: 2.4
+877
+lamdaA: 1.2, lamdaB: 2.5
+880
+lamdaA: 1.2, lamdaB: 2.6
+879
+lamdaA: 1.2, lamdaB: 2.7
+864
+lamdaA: 1.2, lamdaB: 2.8
+864
+lamdaA: 1.2, lamdaB: 2.9
+885
+lamdaA: 1.2, lamdaB: 3.0
+858
+lamdaA: 1.3, lamdaB: 1.3
+923
+lamdaA: 1.3, lamdaB: 1.4
+909
+lamdaA: 1.3, lamdaB: 1.5
+903
+lamdaA: 1.3, lamdaB: 1.6
+905
+lamdaA: 1.3, lamdaB: 1.7
+912
+lamdaA: 1.3, lamdaB: 1.8
+914
+lamdaA: 1.3, lamdaB: 1.9
+890
+lamdaA: 1.3, lamdaB: 2.0
+892
+lamdaA: 1.3, lamdaB: 2.1
+885
+lamdaA: 1.3, lamdaB: 2.2
+881
+lamdaA: 1.3, lamdaB: 2.3
+874
+lamdaA: 1.3, lamdaB: 2.4
+857
+lamdaA: 1.3, lamdaB: 2.5
+847
+lamdaA: 1.3, lamdaB: 2.6
+855
+lamdaA: 1.3, lamdaB: 2.7
+850
+lamdaA: 1.3, lamdaB: 2.8
+848
+lamdaA: 1.3, lamdaB: 2.9
+857
+lamdaA: 1.3, lamdaB: 3.0
+836
+lamdaA: 1.4, lamdaB: 1.4
+916
+lamdaA: 1.4, lamdaB: 1.5
+912
+lamdaA: 1.4, lamdaB: 1.6
+895
+lamdaA: 1.4, lamdaB: 1.7
+901
+lamdaA: 1.4, lamdaB: 1.8
+881
+lamdaA: 1.4, lamdaB: 1.9
+885
+lamdaA: 1.4, lamdaB: 2.0
+879
+lamdaA: 1.4, lamdaB: 2.1
+868
+lamdaA: 1.4, lamdaB: 2.2
+861
+lamdaA: 1.4, lamdaB: 2.3
+853
+lamdaA: 1.4, lamdaB: 2.4
+855
+lamdaA: 1.4, lamdaB: 2.5
+847
+lamdaA: 1.4, lamdaB: 2.6
+859
+lamdaA: 1.4, lamdaB: 2.7
+827
+lamdaA: 1.4, lamdaB: 2.8
+829
+lamdaA: 1.4, lamdaB: 2.9
+826
+lamdaA: 1.4, lamdaB: 3.0
+831
+lamdaA: 1.5, lamdaB: 1.5
+890
+lamdaA: 1.5, lamdaB: 1.6
+897
+lamdaA: 1.5, lamdaB: 1.7
+875
+lamdaA: 1.5, lamdaB: 1.8
+867
+lamdaA: 1.5, lamdaB: 1.9
+868
+lamdaA: 1.5, lamdaB: 2.0
+860
+lamdaA: 1.5, lamdaB: 2.1
+877
+lamdaA: 1.5, lamdaB: 2.2
+847
+lamdaA: 1.5, lamdaB: 2.3
+832
+lamdaA: 1.5, lamdaB: 2.4
+844
+lamdaA: 1.5, lamdaB: 2.5
+825
+lamdaA: 1.5, lamdaB: 2.6
+832
+lamdaA: 1.5, lamdaB: 2.7
+803
+lamdaA: 1.5, lamdaB: 2.8
+842
+lamdaA: 1.5, lamdaB: 2.9
+797
+lamdaA: 1.5, lamdaB: 3.0
+797
+lamdaA: 1.6, lamdaB: 1.6
+871
+lamdaA: 1.6, lamdaB: 1.7
+882
+lamdaA: 1.6, lamdaB: 1.8
+862
+lamdaA: 1.6, lamdaB: 1.9
+852
+lamdaA: 1.6, lamdaB: 2.0
+834
+lamdaA: 1.6, lamdaB: 2.1
+850
+lamdaA: 1.6, lamdaB: 2.2
+847
+lamdaA: 1.6, lamdaB: 2.3
+834
+lamdaA: 1.6, lamdaB: 2.4
+829
+lamdaA: 1.6, lamdaB: 2.5
+805
+lamdaA: 1.6, lamdaB: 2.6
+828
+lamdaA: 1.6, lamdaB: 2.7
+816
+lamdaA: 1.6, lamdaB: 2.8
+797
+lamdaA: 1.6, lamdaB: 2.9
+796
+lamdaA: 1.6, lamdaB: 3.0
+760
+lamdaA: 1.7, lamdaB: 1.7
+861
+lamdaA: 1.7, lamdaB: 1.8
+850
+lamdaA: 1.7, lamdaB: 1.9
+845
+lamdaA: 1.7, lamdaB: 2.0
+838
+lamdaA: 1.7, lamdaB: 2.1
+816
+lamdaA: 1.7, lamdaB: 2.2
+807
+lamdaA: 1.7, lamdaB: 2.3
+801
+lamdaA: 1.7, lamdaB: 2.4
+804
+lamdaA: 1.7, lamdaB: 2.5
+786
+lamdaA: 1.7, lamdaB: 2.6
+790
+lamdaA: 1.7, lamdaB: 2.7
+772
+lamdaA: 1.7, lamdaB: 2.8
+776
+lamdaA: 1.7, lamdaB: 2.9
+764
+lamdaA: 1.7, lamdaB: 3.0
+779
+lamdaA: 1.8, lamdaB: 1.8
+844
+lamdaA: 1.8, lamdaB: 1.9
+817
+lamdaA: 1.8, lamdaB: 2.0
+822
+lamdaA: 1.8, lamdaB: 2.1
+819
+lamdaA: 1.8, lamdaB: 2.2
+807
+lamdaA: 1.8, lamdaB: 2.3
+795
+lamdaA: 1.8, lamdaB: 2.4
+782
+lamdaA: 1.8, lamdaB: 2.5
+782
+lamdaA: 1.8, lamdaB: 2.6
+749
+lamdaA: 1.8, lamdaB: 2.7
+754
+lamdaA: 1.8, lamdaB: 2.8
+753
+lamdaA: 1.8, lamdaB: 2.9
+763
+lamdaA: 1.8, lamdaB: 3.0
+732
+lamdaA: 1.9, lamdaB: 1.9
+831
+lamdaA: 1.9, lamdaB: 2.0
+808
+lamdaA: 1.9, lamdaB: 2.1
+800
+lamdaA: 1.9, lamdaB: 2.2
+799
+lamdaA: 1.9, lamdaB: 2.3
+767
+lamdaA: 1.9, lamdaB: 2.4
+787
+lamdaA: 1.9, lamdaB: 2.5
+771
+lamdaA: 1.9, lamdaB: 2.6
+761
+lamdaA: 1.9, lamdaB: 2.7
+738
+lamdaA: 1.9, lamdaB: 2.8
+738
+lamdaA: 1.9, lamdaB: 2.9
+736
+lamdaA: 1.9, lamdaB: 3.0
+724
+lamdaA: 2.0, lamdaB: 2.0
+791
+lamdaA: 2.0, lamdaB: 2.1
+772
+lamdaA: 2.0, lamdaB: 2.2
+789
+lamdaA: 2.0, lamdaB: 2.3
+756
+lamdaA: 2.0, lamdaB: 2.4
+744
+lamdaA: 2.0, lamdaB: 2.5
+754
+lamdaA: 2.0, lamdaB: 2.6
+732
+lamdaA: 2.0, lamdaB: 2.7
+736
+lamdaA: 2.0, lamdaB: 2.8
+718
+lamdaA: 2.0, lamdaB: 2.9
+712
+lamdaA: 2.0, lamdaB: 3.0
+726
+lamdaA: 2.1, lamdaB: 2.1
+783
+lamdaA: 2.1, lamdaB: 2.2
+767
+lamdaA: 2.1, lamdaB: 2.3
+765
+lamdaA: 2.1, lamdaB: 2.4
+748
+lamdaA: 2.1, lamdaB: 2.5
+724
+lamdaA: 2.1, lamdaB: 2.6
+717
+lamdaA: 2.1, lamdaB: 2.7
+719
+lamdaA: 2.1, lamdaB: 2.8
+709
+lamdaA: 2.1, lamdaB: 2.9
+733
+lamdaA: 2.1, lamdaB: 3.0
+678
+lamdaA: 2.2, lamdaB: 2.2
+753
+lamdaA: 2.2, lamdaB: 2.3
+719
+lamdaA: 2.2, lamdaB: 2.4
+737
+lamdaA: 2.2, lamdaB: 2.5
+710
+lamdaA: 2.2, lamdaB: 2.6
+723
+lamdaA: 2.2, lamdaB: 2.7
+707
+lamdaA: 2.2, lamdaB: 2.8
+689
+lamdaA: 2.2, lamdaB: 2.9
+679
+lamdaA: 2.2, lamdaB: 3.0
+668
+lamdaA: 2.3, lamdaB: 2.3
+716
+lamdaA: 2.3, lamdaB: 2.4
+727
+lamdaA: 2.3, lamdaB: 2.5
+705
+lamdaA: 2.3, lamdaB: 2.6
+668
+lamdaA: 2.3, lamdaB: 2.7
+673
+lamdaA: 2.3, lamdaB: 2.8
+690
+lamdaA: 2.3, lamdaB: 2.9
+672
+lamdaA: 2.3, lamdaB: 3.0
+679
+lamdaA: 2.4, lamdaB: 2.4
+694
+lamdaA: 2.4, lamdaB: 2.5
+670
+lamdaA: 2.4, lamdaB: 2.6
+676
+lamdaA: 2.4, lamdaB: 2.7
+665
+lamdaA: 2.4, lamdaB: 2.8
+657
+lamdaA: 2.4, lamdaB: 2.9
+664
+lamdaA: 2.4, lamdaB: 3.0
+657
+lamdaA: 2.5, lamdaB: 2.5
+684
+lamdaA: 2.5, lamdaB: 2.6
+666
+lamdaA: 2.5, lamdaB: 2.7
+668
+lamdaA: 2.5, lamdaB: 2.8
+628
+lamdaA: 2.5, lamdaB: 2.9
+659
+lamdaA: 2.5, lamdaB: 3.0
+631
+lamdaA: 2.6, lamdaB: 2.6
+652
+lamdaA: 2.6, lamdaB: 2.7
+639
+lamdaA: 2.6, lamdaB: 2.8
+647
+lamdaA: 2.6, lamdaB: 2.9
+637
+lamdaA: 2.6, lamdaB: 3.0
+627
+lamdaA: 2.7, lamdaB: 2.7
+642
+lamdaA: 2.7, lamdaB: 2.8
+617
+lamdaA: 2.7, lamdaB: 2.9
+617
+lamdaA: 2.7, lamdaB: 3.0
+585
+lamdaA: 2.8, lamdaB: 2.8
+586
+lamdaA: 2.8, lamdaB: 2.9
+607
+lamdaA: 2.8, lamdaB: 3.0
+589
+lamdaA: 2.9, lamdaB: 2.9
+595
+lamdaA: 2.9, lamdaB: 3.0
+608
+lamdaA: 3.0, lamdaB: 3.0
+597
